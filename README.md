@@ -28,9 +28,8 @@ Rather than treating the AI as a "black box," the **Explainable AI (XAI) Insight
 
 ### 3. Overnight Procurement & Restock Manifests
 ![Overnight Procurement](images/overnight_procurement.png)
-*(Note: Screenshot pending addition)*
 
-- **Purpose & Flow**: Automates the decision of what needs to be transferred from the main central warehouse to local godowns to meet tomorrow's demand. By mathematically comparing the AI's forecasted demand against current simulated shelf stock, it flags exact shortages and generates a fully actionable CSV packing slip.
+- **Purpose & Flow**: Automates the decision of what needs to be transferred from the main central warehouse to local godowns to meet tomorrow's demand. By mathematically comparing the AI's forecasted demand against current simulated shelf stock, it flags exact shortages, highlights critically out-of-stock items in red, and generates a fully actionable packing slip with a unique Manifest ID for the destination godown (e.g., Arekere).
 - **Why we used it (Free Tools)**: Pure `Pandas` and `Streamlit` session state logic to securely manage and simulate inventory transfers on the fly.
 - **Production Alternative**: This logic would be directly integrated via API into backend **ERP Systems (like SAP or Oracle)** or **AWS Supply Chain**, instantly triggering robotic pick-and-pack workflows on warehouse floors rather than just generating a CSV.
 
