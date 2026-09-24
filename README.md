@@ -1,5 +1,7 @@
 # Amazon Now Forecasting - Enterprise AI Console
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/allamacode/Amazon-Now-Forecasting/blob/main/notebooks/Amazon_Now_Forecasting.ipynb)
+
 This repository contains the **Amazon Now (Bengaluru) - Enterprise AI Console**, a prototype dashboard for predicting hyper-local demand, managing fleet routing, and optimizing overnight restocks. 
 
 ## Features & Detailed Purpose
