@@ -1,0 +1,9 @@
+pandas
+numpy
+faker
+scikit-learn
+xgboost
+h3
+requests
+streamlit
+streamlit-autorefresh
