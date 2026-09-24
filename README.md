@@ -5,7 +5,6 @@ This repository contains the **Amazon Now (Bengaluru) - Enterprise AI Console**,
 ## Features & Detailed Purpose
 
 ### 1. Live Dashboard & Geospatial Fleet Radar
-![Real-Time Geospatial View](images/real_time_geospatial_view.png)
 
 **Command Center - Godown Selection:**
 ![Godown Selection](images/different_godowns.png)
